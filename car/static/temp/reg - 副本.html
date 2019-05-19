@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style class="vjs-styles-defaults">
+      .video-js {
+        width: 300px;
+        height: 150px;
+      }
+
+      .vjs-fluid {
+        padding-top: 56.25%
+      }
+    </style>
+    <!-- domain: com language: en page:  --> 
+
+</style>
+<title>账号注册-桂电党建信息系统</title>
+<meta http-equiv="Page-Enter" content="revealTrans(Duration=2.0,Transition=0)" />
+<meta property="og:title" content="桂电党建信息系统">
+<meta name="keywords" content="">
+<meta property="og:image:width" content="1920">
+<meta property="og:image:height" content="1080">
+<meta property="og:type" content="website">
+<meta property="og:url" content="index.html">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<meta name="version" content="1.2.2">
+<meta name="baidu-site-verification" content="Afh9PZYTcz">
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+<link rel="stylesheet" href="./css/reset.min.css">
+<link rel="stylesheet" href="./css/video-js.css">
+<link rel="stylesheet" href="./css/jquery.bxslider.min.css">
+<link rel="stylesheet" href="./css/aos.css">
+<link rel="stylesheet" href="./css/slick.css">
+<link rel="stylesheet" href="./css/cookieconsent.min.css">
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/bitmax_login1.css">
+<link rel="stylesheet" href="./css/bitmax_login2.css">
+<script src="./js/reg.js"></script>
+<script src="./js/jquery.js"></script>
+<script type="text/javascript" src="/js/jquery.js"></script>
+<!--bootstrap 3-->
+
+<script type="text/javascript">
+    window.onload = initNations;
+</script>
+
+<body class="bg-white" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+	<div class="cc-revoke cc-bottom cc-animate " style="display: none;">Cookie Policy</div>\
+<header class="header-bg">
+    <div class="container main-menu">
+        <nav class="navbar navbar-default">
+            <div class="container-fliud">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle</span>
+                        <span class="icon-bar top-bar"></span>
+                        <span class="icon-bar bottom-bar"></span>
+                    </button>
+                    <a href="index.html" class="navbar-brand logo">党建信息系统</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <div class="mob-menu">
+                        <div class="mob-lang-wrapper visible-xs visible-sm">
+                            <a href="javascript:void(0)" class="active">English</a>
+                            <span>/</span>
+                            <a href="https://www.byton.com/cn/index.php">中文</a>
+                        </div>
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a class="" href=".\index.html">主页</a>
+                            </li>
+                            <li>
+                                <a class="" href="http://cpc.people.com.cn/">新闻浏览</a>
+                            </li>
+                            <li>
+                                <a class="" href="http://www.12371.cn/">学习交流</a>
+                            </li>
+                        </ul>
+                        <div class="right-nav">
+                            <a href=".\index.html" class="sign-up-btn reserve box foo" data-toggle="collapse" data-target="#navbar">登录系统</a>
+                            <a href=".\reg.html" class="reserve box foo">党员注册</a>
+                        </div>
+                    </div>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+            <!--/ .container-fluid -->
+        </nav>
+    </div>
+</header>
+<div data-v-ddba8180="" class="background" style='min-height: 1350px;' >
+	<div class="btb-login-box">
+		<h3>注册账号</h3> 
+		<form class="el-form"  method="POST" action='http://www.baidu.com'>
+			<div id='formData'class="el-form-item__content" style="margin-left: 0px;">
+				<!--性别-->
+				<div class="el-form-item__content" style="margin-left: 0px;">
+					<div style='display:inline-block; vertical-align: middle; padding-right: 10px;' >
+						<img src='.\img\sex.png' style='high:30px;width:27px;'>
+					</div>
+					<div style='display:inline-block;' class="login-input el-input el-input--prefix">
+						<select name='sex' class="form-control">
+							<option>男</option>
+							<option>女</option>
+						</select>
+					</div>
+				</div>
+				<!--民族-->
+				<div  class="el-form-item__content" style="margin-left: 0px;">
+					<div style='display:inline-block; vertical-align: middle; padding-right: 10px;' >
+						<img src='.\img\mz.png' style='high:30px;width:27px;'>
+					</div>
+					<div style='display:inline-block;' class="login-input el-input el-input--prefix">
+						<select name='nation'id='staff_nation' class="form-control"></select>
+					</div>
+				</div>
+				<!--学历-->
+				<div class="el-form-item__content" style="margin-left: 0px;">
+					<p style='display:inline-block; vertical-align: middle; padding-right: 10px;' >
+						<img src='.\img\xl.png' style='high:30px;width:27px;'>
+					</p>
+					<p style='display:inline-block;' class="login-input el-input el-input--prefix">
+						<select name='education' class="form-control">
+							<option>专科</option>
+							<option>本科</option>
+							<option>研究生</option>
+							<option>博士</option>
+							<option>博士后</option>
+						</select>
+					</p>
+				</div>
+				<!--邮箱-->
+				<div class="login-input el-input el-input--prefix">
+					<input id='username' name='username' autocomplete="off" placeholder="邮箱" class="el-input__inner" oninput='isEmail()'>
+				</div>
+				<p id='emailError' class="el-form-item__error" style='display:none'></p>
+				
+				<!--密码-->
+				<div class="login-input el-input el-input--prefix">
+					<input id='passwd' name='passwd' type="password" autocomplete="off" placeholder="密码" class="el-input__inner" oninput='passFormat()'>
+				</div>
+				<p id='passFormatError' class="el-form-item__error" style='display:none'></p>
+				
+				<!--确认密码-->
+				<div class="login-input el-input el-input--prefix">
+					<input id='passwd2' type="password" autocomplete="off" placeholder="确认密码" class="el-input__inner" oninput='passFormat2()'>
+				</div>
+				<p id='passFormatError2' class="el-form-item__error"style='display:none' ></p>
+				
+				<!--姓名-->
+				<div class="login-input el-input el-input--prefix">
+					<input  id='name' name='name' type="text" autocomplete="off" placeholder="姓名" class="el-input__inner" oninput='onSubmit()'>
+				</div>
+				
+				<!--联系电话-->
+				<div class="login-input el-input el-input--prefix">
+					<input id='phone' name='phone' type="number" autocomplete="off" placeholder="联系电话" class="el-input__inner" oninput='if(value.length>11)value=value.slice(0,11);checkPhone();onSubmit();'>
+				</div>
+				<p id='phoneFormatError' class="el-form-item__error" style='display:none'></p>
+				
+				<!--身份证-->
+				<div class="login-input el-input el-input--prefix">
+					<input id='cardNum' name='cardNum' type="number" autocomplete="off" placeholder="身份证号码" class="el-input__inner" oninput='if(value.length>18)value=value.slice(0,18); checkCard();onSubmit();'>
+				</div>
+				<p id='cardFormatError' class="el-form-item__error" style='display:none'></p>
+				
+				<!--人员类别-->
+				<div class="login-input el-input el-input--prefix">
+					<input  id='personType' name='personType' type="text" autocomplete="off" placeholder="人员类别" class="el-input__inner" oninput='onSubmit()'>
+				</div>
+				
+				<!--所在党支部-->
+				<div class="login-input el-input el-input--prefix">
+					<input  id='dzb' name='dzb' type="text" autocomplete="off" placeholder="所在党支部" class="el-input__inner" oninput='onSubmit()'>
+				</div>
+				
+				<!--入党日期-->
+				<div class="login-input el-input el-input--prefix" style='display:inline-block;'>
+					<p>入党时间：</p>
+				</div>
+				<div style='display:inline-block;' class="login-input el-input el-input--prefix">
+					<input style='width: 270px;' id='inTime' name='inTime' type="date" autocomplete="off" placeholder="入党时间" class="el-input__inner" oninput='onSubmit()'>
+				</div>
+				
+				<!--是否为正式党员-->
+				<div class="login-input el-input el-input--prefix" style='padding-bottom: 11px;'>是否为正式党员?
+					<label class="radio-inline">
+					  <input id='isZsdy0' type="radio" name="inlineRadioOptions" value="" oninput='isZsdy(0); onSubmit()' > 是
+					</label>
+					<label class="radio-inline">
+					  <input id='isZsdy1' type="radio" name="inlineRadioOptions" value="" oninput='isZsdy(1);onSubmit()'> 否
+					</label>
+					<p id='zsrdP' style='display:none;'>正式入党时间：</p>
+					<input id='zsInDate' name='zsInDate' type="hidden" autocomplete="off" class="el-input__inner" style='width: 233px;' oninput='onSubmit()' >
+				</div>
+				
+				<!--户籍所在地-->
+				<div class="login-input el-input el-input--prefix">
+					<input  id='post' name='post' type="text" autocomplete="off" placeholder="现任职位" maxlength='30' class="el-input__inner" oninput='onSubmit()'>
+				</div>
+				
+				<!--户籍所在地-->
+				<div class="login-input el-input el-input--prefix">
+					<input  id='hzAdd' name='hzAdd' type="text" autocomplete="off" placeholder="户籍所在地" maxlength='30' class="el-input__inner" oninput='onSubmit()'>
+				</div>
+				
+				<!--家庭住址-->
+				<div class="login-input el-input el-input--prefix">
+					<input  id='jtAdd' name='jtAdd' type="text" autocomplete="off" placeholder="家庭住址" maxlength='30' class="el-input__inner" oninput='onSubmit()'>
+				</div>
+				<div class="input-group">
+					<input disabled="disabled" type ='submit' id="geeTestButton" class='btn-login' onclick="regCheck();"  style='cursor: not-allowed; background: #b5afaf70; margin-top: 20px'value='提交注册'>
+				</div>
+				<p id='btnError' class="btnError" style='display:none;'></p>
+			</div>
+		</form>
+</html>
